@@ -25,9 +25,11 @@
 
       <div class="form-item">■ 名前</div>
       <!-- nameを受け取りechoする -->
-      
+      <?php echo $_POST['name']; ?>
+
       <div class="form-item">■ 内容</div>
       <!-- bodyを受け取りechoする -->
+      <?php echo $_POST['body']; ?>
       
     </div>
 
